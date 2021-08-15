@@ -39,6 +39,7 @@
 }
 
 #home-div{
+  position: absolute;
   background-color: #282c34;
   height: 100vh;
   font-size: 32pt;
@@ -46,6 +47,19 @@
   text-align: center;
   color: azure;
   height: 100vh;
+  width: 100vw;
+  
+}
+#home-div > #text{
+  margin-top: calc(50vh - 72pt);
+}
+ .page-link{
+   display: inline-block;
+  border: solid white 2px;
+  font-size: 13pt;
+  padding-left: 20px;
+  padding-right: 20px;
+  
 }
 
 @media only screen and (max-width: 600px) {
