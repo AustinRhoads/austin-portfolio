@@ -68,6 +68,51 @@
   
 }
 
+#about-div{
+  height: 100vh;
+
+}
+
+#about-header{
+  font-size: 30pt;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+#portfolio-div{
+  height: 100vh;
+  background-color: #282c34;
+  color: #fff;
+}
+
+#portfolio-header{
+  font-size: 30pt;
+  font-weight: bold;
+  padding-top: 30px;
+}
+#blog-div{
+  height: 100vh;
+ 
+}
+
+#blog-header{
+  font-size: 30pt;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+#contact-div{
+  height: 50vh;
+  background-color: #282c34;
+  color: #fff;
+}
+
+#contact-header{
+  font-size: 30pt;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
 @media only screen and (max-width: 600px) {
   #home-div {
     font-size: 16pt;

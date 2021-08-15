@@ -4,8 +4,8 @@ import React, { Component } from 'react'
 class About extends Component {
     render(){
         return(
-            <div>
-                <h2>ABOUT</h2>
+            <div id="about-div">
+                <div id="about-header" >ABOUT</div>
 
             </div>
         )
