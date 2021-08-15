@@ -1,13 +1,17 @@
-
+import React, { Component } from 'react'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-<h2>HELLO, I'M AUSTIN RHOADS</h2>
-<h2>I'M A FULL-STACK WEB DEVELOPER</h2>
-    </div>
-  );
+import Home from './components/Home.js'
+
+class App extends Component{
+  render (){
+    return(
+      <div className="App">
+        <Home />
+      </div>
+    )
+ 
+  };
 }
 
 export default App;

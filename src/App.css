@@ -37,3 +37,21 @@
     transform: rotate(360deg);
   }
 }
+
+#home-div{
+  background-color: #282c34;
+  height: 100vh;
+  font-size: 32pt;
+  line-height: 36pt;
+  text-align: center;
+  color: azure;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  #home-div {
+    font-size: 16pt;
+    line-height: 20pt;
+  
+  }
+}
