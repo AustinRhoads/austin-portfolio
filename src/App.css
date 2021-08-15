@@ -1,6 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
   font-family: 'Raleway', sans-serif;
+  
+}
+body{
+  scroll-behavior: smooth;
 }
 
 .App-logo {
@@ -58,14 +66,24 @@
  /* margin-top: calc(50vh - 72pt);*/
  align-self: center;
 }
- .page-link{
+ .page-link-div{
   display: inline-block;
   border: solid white 2px;
   font-size: 13pt;
   padding-left: 20px;
   padding-right: 20px;
   align-self: center;
+  margin-top: 20px;
   
+}
+.page-link{
+  text-decoration: none;
+  font-size: 13pt;
+  color: azure;
+  align-self: center;
+}
+.page-link:hover{
+  cursor: pointer;
 }
 
 #about-div{

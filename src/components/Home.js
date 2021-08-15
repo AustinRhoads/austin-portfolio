@@ -11,9 +11,11 @@ class Home extends Component{
                 I'm a full-stack web developer.
                 </div>
 
-                <div className="page-link">
+                <a className="page-link" href="#portfolio-div">
+                <div className="page-link-div">
                     View my work
                 </div>
+                </a>
                 
             </div>
         )
