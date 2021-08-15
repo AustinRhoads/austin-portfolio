@@ -137,4 +137,27 @@ body{
     line-height: 20pt;
   
   }
+
+  #about-header{
+  font-size: 20pt;
+    line-height: 50pt;
+  }
+  
+  #portfolio-header{
+  font-size: 20pt;
+    line-height: 50pt;  
+  }
+  
+  #blog-header{
+   font-size: 20pt;
+    line-height: 25pt; 
+  }
+  
+  #contact-header{
+   font-size: 20pt;
+    line-height: 25pt; 
+  }
+
+
+
 }
