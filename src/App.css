@@ -145,6 +145,7 @@ width: 450px;
 float: right;
 display: flex;
 flex-wrap: wrap;
+/*background-color: #93E9BE;*/
 }
 
 .about-skills-logo {
@@ -215,7 +216,7 @@ flex-wrap: wrap;
    }
 
   #about-skill-wrapper-img-div > img {
-   
+    border: solid 12px #93E9BE;
     width: 200px;
     height: 200px;
 
