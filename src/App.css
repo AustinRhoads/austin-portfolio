@@ -187,6 +187,16 @@ flex-wrap: wrap;
   padding-top: 30px;
 }
 
+
+@media only screen and (max-width: 840px) {
+  #about-skill-wrapper-img-div{
+   /* margin-right: 0;*/
+    
+  }
+}
+
+
+
 @media only screen and (max-width: 600px) {
   #home {
     font-size: 16pt;
@@ -199,7 +209,13 @@ flex-wrap: wrap;
     line-height: 50pt;
   }
 
+  #about-skill-wrapper-img-div{
+     margin-right: 0;
+     
+   }
+
   #about-skill-wrapper-img-div > img {
+   
     width: 200px;
     height: 200px;
 
