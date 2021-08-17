@@ -87,14 +87,69 @@ body{
 }
 
 #about-div{
-  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+#about-all{
+ 
+  display: inline-block;
+  padding-bottom: 30px;
 }
 
 #about-header{
   font-size: 30pt;
   font-weight: bold;
   padding-top: 30px;
+}
+
+#about-values-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#about-values-wrapper > div{
+
+}
+#about-skills-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30pt;
+  justify-content: center;
+}
+
+#about-skills-wrapper > div {
+  margin-top: 33px;
+  
+ 
+}
+#about-skill-wrapper-img-div{
+  margin-right: 10vw;
+  
+}
+
+#about-skill-wrapper-img-div > img {
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+  object-position: right 3%;
+  border-radius: 50%;
+  border: solid 3px #93E9BE;
+  background-color: #93E9BE;
+}
+
+#about-skills-list{
+width: 450px;
+float: right;
+display: flex;
+flex-wrap: wrap;
+}
+
+.about-skills-logo {
+  max-width: 100px;
+  max-height: 100px;
 }
 
 #portfolio-div{
@@ -142,6 +197,18 @@ body{
   font-size: 20pt;
     line-height: 50pt;
   }
+
+  #about-skill-wrapper-img-div > img {
+    width: 200px;
+    height: 200px;
+
+  }
+
+  #about-skills-list{
+    width: 400px;
+  }
+
+  
   
   #portfolio-header{
   font-size: 20pt;
