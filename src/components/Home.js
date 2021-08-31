@@ -6,7 +6,7 @@ class Home extends Component{
             <div id="home">
 
                 <div id="home-text">
-                Hello, I'm Austin Rhoads.
+                Hello, I'm <span id="name-span">Austin Rhoads</span>.
                 <br />
                 I'm a full-stack web developer.
                 </div>
