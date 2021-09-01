@@ -141,7 +141,7 @@ body{
 
 
 #about-all{
-  padding-top: 60px;
+ /* padding-top: 60px;*/
   display: inline-block;
   padding-bottom: 30px;
 }
