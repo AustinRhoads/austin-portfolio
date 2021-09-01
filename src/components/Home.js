@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Home extends Component{
     render(){
         return(
-            <div id="home">
+            <section id="home">
 
                 <div id="home-text">
                 Hello, I'm <span id="name-span">Austin Rhoads</span>.
@@ -11,13 +11,13 @@ class Home extends Component{
                 I'm a full-stack web developer.
                 </div>
 
-                <a className="page-link" href="#portfolio-div">
-                <div className="page-link-div">
+                <div className="page-link" dest="portfolio-div" >
+                <div className="page-link-div" onClick={() => this.props.scroll_to("portfolio-div")}>
                     View my work
                 </div>
-                </a>
+                </div>
                 
-            </div>
+            </section>
         )
     }
 }

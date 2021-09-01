@@ -14,7 +14,7 @@ import css_logo from '../css_logo.png'
 class About extends Component {
     render(){
         return(
-            <div id="about-all">
+            <section id="about-all">
                 <div id="about-div">
                     <div id="about-header" >ABOUT</div>
                 <div id="about-values-wrapper"></div>
@@ -37,7 +37,7 @@ class About extends Component {
                 </div>
             
                 </div>
-            </div>
+            </section>
         )
     }
 }

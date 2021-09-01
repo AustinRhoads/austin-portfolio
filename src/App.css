@@ -91,6 +91,46 @@ body{
   cursor: pointer;
 }
 
+
+.nav-bar{
+  display: flex;
+  width: 100vw;
+  height: 50px;
+  background-color: #1e2127;
+  border-bottom: 3px solid #93E9BE;
+  position: absolute;
+  z-index: 111111;
+  top: 100vh;
+
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+}
+
+.nav-link{
+  cursor: pointer;
+  margin: 0 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  animation: popUp 0.5s;
+}
+
+@keyframes popUp {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
 #about-div{
   min-height: 100vh;
   display: flex;
@@ -98,13 +138,16 @@ body{
   align-items: center;
 }
 
+
+
 #about-all{
- 
+  padding-top: 60px;
   display: inline-block;
   padding-bottom: 30px;
 }
 
 #about-header{
+  margin-top: 33px;
   font-size: 30pt;
   font-weight: bold;
   padding-top: 30px;
@@ -166,6 +209,7 @@ flex-wrap: wrap;
 }
 
 #portfolio-header{
+  margin-top: 33px;
   font-size: 30pt;
   font-weight: bold;
   padding-top: 30px;
@@ -176,6 +220,7 @@ flex-wrap: wrap;
 }
 
 #blog-header{
+  margin-top: 33px;
   font-size: 30pt;
   font-weight: bold;
   padding-top: 30px;
@@ -188,6 +233,7 @@ flex-wrap: wrap;
 }
 
 #contact-header{
+  margin-top: 33px;
   font-size: 30pt;
   font-weight: bold;
   padding-top: 30px;
