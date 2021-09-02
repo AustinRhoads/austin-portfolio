@@ -15,7 +15,7 @@ class App extends Component{
 
     let topOfDestinationElement = document.getElementById(dest).offsetTop
 
-    window.scrollTo(0, topOfDestinationElement - 30)
+    window.scrollTo(0, topOfDestinationElement)
 
   }
 
@@ -50,7 +50,7 @@ window.addEventListener('scroll', ()=> {
 
       const navbar = document.getElementById('nav-bar');
 
-      if(window.pageYOffset > (window.innerHeight + (window.innerHeight * 0.3)) && !navbar.classList.contains('fixed')){
+      if(window.pageYOffset > (window.innerHeight + (window.innerHeight * 0.2)) && !navbar.classList.contains('fixed')){
       
          navbar.classList.add('fixed')
       

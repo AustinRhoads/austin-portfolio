@@ -1,10 +1,18 @@
+@font-face {
+  font-family: 'bogart';
+  src: url('./typefaces/Bogart-Light-trial.ttf') format('truetype')
+}
+
+
+
 html {
   scroll-behavior: smooth;
 }
 
 .App {
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'bogart'
   
 }
 body{
@@ -94,18 +102,18 @@ body{
 
 .nav-bar{
   display: flex;
-  width: 100vw;
+  width: calc(100vw - 39px);
   height: 50px;
   background-color: #1e2127;
   border-bottom: 3px solid #93E9BE;
   position: absolute;
   z-index: 111111;
   top: 100vh;
-
+  padding-left: 39px;
   align-items: center;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   text-align: left;
 }
 
@@ -114,12 +122,13 @@ body{
   margin: 0 20px;
   font-size: 20px;
   color: #fff;
+  left: 0;
 }
 
 .fixed {
   position: fixed;
   top: 0;
-  animation: popUp 0.5s;
+  animation: popUp 1s;
 }
 
 @keyframes popUp {
@@ -144,6 +153,7 @@ body{
  /* padding-top: 60px;*/
   display: inline-block;
   padding-bottom: 30px;
+  width: 100vw;
 }
 
 #about-header{
@@ -204,6 +214,7 @@ flex-wrap: wrap;
 
 #portfolio-div{
   height: 100vh;
+  width: 100vw;
   background-color: #282c34;
   color: #fff;
 }
@@ -212,10 +223,12 @@ flex-wrap: wrap;
   margin-top: 33px;
   font-size: 30pt;
   font-weight: bold;
-  padding-top: 30px;
+  padding-top: 60px;
+ 
 }
 #blog-div{
   height: 100vh;
+  width: 100vw;
  
 }
 
@@ -223,11 +236,12 @@ flex-wrap: wrap;
   margin-top: 33px;
   font-size: 30pt;
   font-weight: bold;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 #contact-div{
-  height: 50vh;
+  height: 100vh;
+  width: 100vw;
   background-color: #282c34;
   color: #fff;
 }
@@ -236,7 +250,7 @@ flex-wrap: wrap;
   margin-top: 33px;
   font-size: 30pt;
   font-weight: bold;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 
