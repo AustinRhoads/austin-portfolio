@@ -17,7 +17,28 @@ class About extends Component {
             <section id="about-all">
                 <div id="about-div">
                     <div id="about-header" >ABOUT</div>
-                <div id="about-values-wrapper"></div>
+                <div id="about-values-wrapper">
+                    <div className="about-values-row">
+                        <div className="about-values-item">
+                            <div className="value-header">Fast</div>
+                            <div>Written with the fastes load times as priority.</div>
+                        </div>
+                        <div className="about-values-item">
+                            <div className="value-header">Pixel Perfect Layout</div>
+                            <div>lorem ipsum yadda yadda </div> 
+                        </div>
+                    </div>
+                    <div className="about-values-row">
+                        <div className="about-values-item">
+                            <div className="value-header">Dynamic UI</div>
+                            <div>Responsive builds that make your ideas come to life.</div> 
+                        </div>
+                        <div className="about-values-item">
+                            <div className="value-header">Inventive</div>
+                            <div>Have some new ideas? Let's make them work.</div>
+                        </div>
+                    </div>
+                </div>
                 <div id="about-skills-wrapper">
                     <div id="about-skill-wrapper-img-div"> 
                         <img  alt="me_neo" src={me_neo} />

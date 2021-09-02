@@ -166,11 +166,30 @@ body{
 #about-values-wrapper{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
 }
 
 #about-values-wrapper > div{
 
 }
+.value-header{
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.about-values-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.about-values-item{
+  width: 230px;
+  height: 230px;
+ /* background-color: #93E9BE;*/
+}
+
+
 #about-skills-wrapper{
   display: flex;
   flex-wrap: wrap;
