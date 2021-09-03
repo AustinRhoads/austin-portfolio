@@ -186,6 +186,8 @@ body{
 .about-values-item{
   width: 230px;
   height: 230px;
+  padding-left: 15px;
+  padding-right: 15px;
  /* background-color: #93E9BE;*/
 }
 

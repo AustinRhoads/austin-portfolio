@@ -31,7 +31,7 @@ class About extends Component {
                     <div className="about-values-row">
                         <div className="about-values-item">
                             <div className="value-header">Dynamic</div>
-                            <div>Intuitive and responsive UI/UX that make your ideas come to life.</div> 
+                            <div>Intuitive and responsive UI/UX that allow your ideas come to life.</div> 
                         </div>
                         <div className="about-values-item">
                             <div className="value-header">Inventive</div>
