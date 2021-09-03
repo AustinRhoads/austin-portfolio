@@ -361,6 +361,7 @@ flex-wrap: wrap;
    padding-right: 0;
    width: 100vw;
     align-items: flex-start;
+    overflow: hidden;
    
   }
 
