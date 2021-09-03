@@ -127,6 +127,7 @@ body{
   font-size: 20px;
   color: #fff;
   left: 0;
+ 
 }
 
 #nav-icon{
@@ -229,8 +230,8 @@ body{
 .about-values-item{
   width: 230px;
   height: 230px;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-left: 25px;
+  
  /* background-color: #93E9BE;*/
 }
 
@@ -335,22 +336,31 @@ flex-wrap: wrap;
   }
 
   #nav-icon{
+    
     position: absolute;
     display:inline-block;
     cursor: pointer;
     
   }
 
-  .nav-link{
+  .fixed #nav-icon{
+    right: 30px;
+  }
+
+  div.nav-link{
     float: right;
     display: none;
     height: 0px;
     transition: 1s;
+    margin: 0px 0px;
 
   }
   .nav-bar{
+    left: 0;
    padding-left: 0;
+   padding-right: 0;
    width: 100vw;
+
    
   }
 
@@ -383,14 +393,14 @@ flex-wrap: wrap;
   .nav-bar.responsive > div.nav-link{
     
     float: none;
-    display: block;
+    display: inline-block;
     text-align: left;
     padding-left: 10vw;
     
-    width: 90vw;
+    
     height: 50px;
     background-color: #1e2127;
-  
+    
    
   }
 
@@ -412,6 +422,14 @@ flex-wrap: wrap;
   #about-header{
   font-size: 20pt;
     line-height: 50pt;
+  }
+
+  .about-values-item{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    
+   /* background-color: #93E9BE;*/
   }
 
   #about-skill-wrapper-img-div{
