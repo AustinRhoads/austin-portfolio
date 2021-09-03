@@ -12,6 +12,9 @@ import css_logo from '../css_logo.png'
 
 
 class About extends Component {
+
+
+
     render(){
         return(
             <section id="about-all">

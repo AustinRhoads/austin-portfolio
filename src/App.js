@@ -16,8 +16,16 @@ class App extends Component{
     let topOfDestinationElement = document.getElementById(dest).offsetTop
 
     window.scrollTo(0, topOfDestinationElement)
+    this.hide_responsive()
 
   }
+
+  hide_responsive = () => {
+    var navbar = document.getElementById('nav-bar');
+    if(navbar.classList.contains('responsive')){
+        navbar.classList.remove('responsive')
+    }
+}
 
 
   render (){
