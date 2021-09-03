@@ -340,11 +340,12 @@ flex-wrap: wrap;
     position: absolute;
     display:inline-block;
     cursor: pointer;
-    
+    margin-top: 12px;
   }
 
   .fixed #nav-icon{
     right: 30px;
+   
   }
 
   div.nav-link{
@@ -356,12 +357,12 @@ flex-wrap: wrap;
     
   }
   .nav-bar{
-    left: 0;
+   left: 0;
    padding-left: 0;
    padding-right: 0;
    width: 100vw;
-    align-items: flex-start;
-    overflow: hidden;
+   align-items: flex-start;
+   overflow: hidden;
    
   }
 
