@@ -21,7 +21,7 @@ class About extends Component {
                     <div className="about-values-row">
                         <div className="about-values-item">
                             <div className="value-header">Fortitude</div>
-                            <div>Fast and scalable code that can grows with you.</div>
+                            <div>Fast and scalable code that can grow with you.</div>
                         </div>
                         <div className="about-values-item">
                             <div className="value-header">Pixel Perfect Layout</div>
