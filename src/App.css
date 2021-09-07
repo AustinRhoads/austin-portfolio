@@ -9,6 +9,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .App {
@@ -412,12 +413,12 @@ flex-wrap: wrap;
 
   @keyframes popDown {
     from {
-      transform: translateY(-900%);
-     /* transform: translateX(-300%)*/
+      /*transform: translateY(-900%);*/
+      transform: translateX(-300%)
     }
     to {
-      transform: translateY(0%);
-     /* transform: translateX(0%)*/
+     /* transform: translateY(0%);*/
+      transform: translateX(0%)
     }
   }
 
