@@ -24,7 +24,7 @@ class About extends Component {
                     <div className="about-values-row">
                         <div className="about-values-item">
                             <div className="value-header">Fortitude</div>
-                            <div>Fast and scalable code that can grow with you.</div>
+                            <div>Fast and scalable code that grows with your needs.</div>
                         </div>
                         <div className="about-values-item">
                             <div className="value-header">Pixel Perfect Layout</div>
@@ -47,15 +47,15 @@ class About extends Component {
                         <img  alt="me_neo" src={me_neo} />
                     </div>
                     <div id="about-skills-list">
-                        <img className="about-skills-logo" alt="js" src={js_logo} />
-                        <img className="about-skills-logo" alt="reactlogo" src={react_logo} />
-                        <img className="about-skills-logo" alt="html5" src={html5_logo} />
-                        <img className="about-skills-logo" alt="css" src={css_logo} />
-                        <img className="about-skills-logo" alt="ruby" src={ruby_logo} />
-                        <img className="about-skills-logo" alt="rails" src={rails_logo} />
-                        <img className="about-skills-logo" alt="npm" src={npm_logo} />
-                        <img className="about-skills-logo" alt="nodejs" src={node_js_logo} />
-                        <img className="about-skills-logo" alt="sql" src={sql_logo} />
+                        <div className="about-skills-item" >Javascript</div>
+                        <div className="about-skills-item" >React</div>
+                        <div className="about-skills-item" >HTML</div>
+                        <div className="about-skills-item" >CSS</div>
+                        <div className="about-skills-item" >Ruby</div>
+                        <div className="about-skills-item" >Rails</div>
+                        <div className="about-skills-item" >SQL</div>
+                        <div className="about-skills-item" >Node.js</div>
+
                     </div>
                    
                 </div>
@@ -67,3 +67,14 @@ class About extends Component {
 }
 
 export default About;
+
+
+//<img className="about-skills-logo" alt="js" src={js_logo} />
+//<img className="about-skills-logo" alt="reactlogo" src={react_logo} />
+//<img className="about-skills-logo" alt="html5" src={html5_logo} />
+//<img className="about-skills-logo" alt="css" src={css_logo} />
+//<img className="about-skills-logo" alt="ruby" src={ruby_logo} />
+//<img className="about-skills-logo" alt="rails" src={rails_logo} />
+//<img className="about-skills-logo" alt="npm" src={npm_logo} />
+//<img className="about-skills-logo" alt="nodejs" src={node_js_logo} />
+//<img className="about-skills-logo" alt="sql" src={sql_logo} />

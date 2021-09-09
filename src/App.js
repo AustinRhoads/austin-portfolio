@@ -10,6 +10,27 @@ import Contact from './components/Contact';
 
 class App extends Component{
 
+  componentDidMount(){
+
+
+    window.addEventListener('scroll', ()=> {
+
+      const navbar = document.getElementById('nav-bar');
+
+      if(window.pageYOffset > (window.innerHeight + (window.innerHeight * 0.2)) && !navbar.classList.contains('fixed')){
+      
+         navbar.classList.add('fixed')
+      
+      } else if (window.pageYOffset < window.innerHeight && navbar.classList.contains('fixed')){
+
+          navbar.classList.remove('fixed')
+      
+      }
+ 
+    })
+
+  }
+
 
   scroll_to = (dest) => {
 
@@ -26,6 +47,7 @@ class App extends Component{
         navbar.classList.remove('responsive')
     }
 }
+
 
 
   render (){
@@ -52,20 +74,3 @@ export default App;
 
 
 
-
-
-window.addEventListener('scroll', ()=> {
-
-      const navbar = document.getElementById('nav-bar');
-
-      if(window.pageYOffset > (window.innerHeight + (window.innerHeight * 0.2)) && !navbar.classList.contains('fixed')){
-      
-         navbar.classList.add('fixed')
-      
-      } else if (window.pageYOffset < window.innerHeight && navbar.classList.contains('fixed')){
-
-          navbar.classList.remove('fixed')
-      
-      }
- 
-})
