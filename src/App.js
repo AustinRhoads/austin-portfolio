@@ -10,8 +10,20 @@ import Contact from './components/Contact';
 
 class App extends Component{
 
+  state = {
+    current_position: "",
+  }
+
+
+
   componentDidMount(){
 
+
+    var sections = document.querySelectorAll('section');
+   
+   
+    this.set_current_section(sections)
+ 
 
     window.addEventListener('scroll', ()=> {
 
@@ -26,9 +38,36 @@ class App extends Component{
           navbar.classList.remove('fixed')
       
       }
- 
+
+
+      this.set_current_section(sections)
+
+      
+
+
     })
 
+
+  }
+
+  set_current_section = (sections) => {
+    for(let x = 0; x < sections.length; x++){
+      if(window.pageYOffset >= (sections[x].offsetTop - (window.innerHeight * 0.25))  && window.pageYOffset < sections[x].offsetTop + window.innerHeight){
+        let pos = `link-${sections[x].id}`
+        if(this.state.current_position != pos){
+          this.setState({
+            current_position: pos,
+          })
+          let old_link = document.querySelector('.lit')
+          if(old_link){old_link.classList.remove('lit')}
+          let current_link = document.getElementById(pos)
+          current_link.classList.add('lit')
+         
+          
+        }
+
+      }
+    }
   }
 
 
@@ -54,7 +93,7 @@ class App extends Component{
     return(
       <div className="App">
         <Home scroll_to={this.scroll_to} />
-        <Navbar scroll_to={this.scroll_to} />
+        <Navbar scroll_to={this.scroll_to} current_position={this.state.current_position} />
         <About />
         <Portfolio />
         <Blog />
