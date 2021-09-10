@@ -468,6 +468,19 @@ flex-direction: column;
   .portfolio-projects-list-item{
     align-self: center;
   }
+
+  #blog-list{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+
+  .blog-list-item{
+    align-self: center;
+  }
   
 }
 
@@ -659,6 +672,17 @@ flex-direction: column;
     width: 50vw;
   
   }
+
+  .blog-card-title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18pt;
+  }
+
+  
   
   #contact-header{
    font-size: 20pt;
