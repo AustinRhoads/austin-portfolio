@@ -51,10 +51,12 @@ class App extends Component{
   }
 
   set_current_section = (sections) => {
+
     for(let x = 0; x < sections.length; x++){
       if(window.pageYOffset >= (sections[x].offsetTop - (window.innerHeight * 0.25))  && window.pageYOffset < sections[x].offsetTop + window.innerHeight){
         let pos = `link-${sections[x].id}`
-        if(this.state.current_position != pos){
+       
+        if(this.state.current_position !== pos){
           this.setState({
             current_position: pos,
           })
