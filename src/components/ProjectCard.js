@@ -7,6 +7,7 @@ class ProjectCard extends React.Component {
                 <img className="project-card-image" alt="card" src={this.props.project.img} style={{minHeight: "100%", minWidth: "100%", maxHeight: "110%", maxWidth: "110%",}} />
 
                 <h3 className="project-card-name">{this.props.project.name}</h3>
+                <h3 className="project-card-languages">{this.props.project.languages}</h3>
             </div>
         )
     }

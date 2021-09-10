@@ -5,9 +5,9 @@ import speckled_trouts from '../images/spec1.jpg'
 import ufo_img from '../images/pentagon_ufo.png'
 
 const Projects = [
-    {name: "Arcade Studios", img: arcade_studio_img},
-    {name: "Fish In Sight", img: speckled_trouts},
-    {name: "UFO Tracker", img: ufo_img},
+    {name: "Arcade Studios", img: arcade_studio_img, languages: "Javascript/Rails"},
+    {name: "Fish In Sight", img: speckled_trouts, languages: "React/Rails"},
+    {name: "UFO Tracker", img: ufo_img, languages: "Ruby on Rails"},
 ]
 
 
