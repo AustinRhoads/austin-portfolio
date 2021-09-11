@@ -132,6 +132,16 @@ body{
 }
 .lit{
   color:rgb(241, 10, 79);
+ /* animation: lightmeup 1s; */
+}
+
+@keyframes lightmeup {
+  from {
+   
+  }
+  to {
+    color: rgb(241, 10, 79);
+  }
 }
 
 .litUp{

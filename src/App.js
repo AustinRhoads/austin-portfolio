@@ -53,7 +53,7 @@ class App extends Component{
     let old_pos = document.querySelector('.lit') ? document.querySelector('.lit').id: null
 
     for(let x = 0; x < sections.length; x++){
-      if(window.pageYOffset >= (sections[x].offsetTop - (window.innerHeight * 0.25))  && window.pageYOffset < sections[x].offsetTop + window.innerHeight){
+      if(window.pageYOffset > sections[x].offsetTop - 30  && window.pageYOffset < sections[x].offsetTop + (window.innerHeight/2)){
         let pos = `link-${sections[x].id}`
        
         if(old_pos !== pos){
@@ -61,7 +61,7 @@ class App extends Component{
           let old_link = document.querySelector('.lit')
           
           if(old_link){old_link.classList.remove('lit')}
-          let current_link = document.getElementById(pos)
+          let current_link = document.getElementById(pos);
           current_link.classList.add('lit')
          
           
