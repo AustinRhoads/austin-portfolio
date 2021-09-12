@@ -53,7 +53,7 @@ class App extends Component{
     let old_pos = document.querySelector('.lit') ? document.querySelector('.lit').id: null
 
     for(let x = 0; x < sections.length; x++){
-      if(window.pageYOffset > sections[x].offsetTop - 30  && window.pageYOffset < sections[x].offsetTop + (window.innerHeight/2)){
+      if(window.pageYOffset > sections[x].offsetTop - 30  && window.pageYOffset < sections[x].offsetTop + (sections[x].offsetHeight/2)){
         let pos = `link-${sections[x].id}`
        
         if(old_pos !== pos){
