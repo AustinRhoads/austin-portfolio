@@ -361,7 +361,8 @@ flex-direction: column;
   bottom: 0;
   left: 0;
   right: 0;
-  font-family: 'Raleway', sans-serif;
+ /* font-family: 'Raleway', sans-serif;*/
+ font-family: bogart;
   font-size: 20pt;
   text-shadow:
   -1px -1px 0 rgba(0, 0, 0, 0.238),  
@@ -371,6 +372,24 @@ flex-direction: column;
 
   color: rgb(241, 10, 79);
 }
+
+.project-card-github-link{
+  position: absolute;
+  top: 65%;
+  left: 0;
+  right: 0;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14pt;
+
+  text-shadow:
+  -1px -1px 0 rgba(0, 0, 0, 0.238),  
+   1px -1px 0 rgba(0, 0, 0, 0.238),
+   -1px 1px 0 rgba(0, 0, 0, 0.238),
+    1px 1px 0 rgba(0, 0, 0, 0.238);
+    color: aliceblue;
+}
+
 .portfolio-card-video{
   background-color: black;
  
