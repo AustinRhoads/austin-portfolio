@@ -27,11 +27,15 @@ class Portfolio extends Component{
                     <ProjectCard project={Projects[0]} />
                     <ProjectCard project={Projects[1]} />
                     <ProjectCard project={Projects[2]} />
-                    <div className="portfolio-projects-list-item" >
+
+                    {/*
+                           <div className="portfolio-projects-list-item" >
                         <video className="portfolio-card-video" autoplay="" muted loop id="vidya">
                                 <source src={as_video} type="video/mp4" />
                         </video>
                     </div>
+                    */}
+             
                    
 
                 </div>
