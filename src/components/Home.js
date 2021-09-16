@@ -1,5 +1,5 @@
 import React, { Component } from 'react' 
-import stormy_ocean from '../images/stormyOceanFiltered.mp4'
+import stormy_ocean from '../images/stormyOceanFiltered1.mp4'
 
 //position: absolute;
 //z-index: 0;
