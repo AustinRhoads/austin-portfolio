@@ -1,5 +1,5 @@
 import React, { Component } from 'react' 
-//import stormy_ocean from '../images/stormyOceanFiltered.mp4'
+import stormy_ocean from '../images/stormyOceanFiltered.mp4'
 
 //position: absolute;
 //z-index: 0;
@@ -11,11 +11,11 @@ class Home extends Component{
     render(){
         return(
             <section id="home">
-                {/*     <video id="vidya2"  className="portfolio-card-video" autoplay="" muted loop >
+                    <video id="vidya2"  className="portfolio-card-video" autoplay="" muted loop >
                                 <source src={stormy_ocean} type="video/mp4" />
                         </video>
                         
-                        */}
+                    
                     
           
                       
