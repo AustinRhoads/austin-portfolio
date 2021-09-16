@@ -5,6 +5,7 @@ import stormy_ocean from '../images/stormyOceanFiltered1.mp4'
 //z-index: 0;
 //min-height: 100vh;
 //filter: contrast(0.8);
+//freedome
 
 class Home extends Component{
     render(){
