@@ -5,6 +5,7 @@ import speckled_trouts from '../images/spec1.jpg'
 import ufo_img from '../images/pentagon_ufo.png'
 import as_video from '../images/AS-QSDefault.mp4'
 
+
 const Projects = [
     {name: "Arcade Studios", img: arcade_studio_img, languages: "Javascript/Rails", gitHub_url: "https://github.com/AustinRhoads/arcade-studios", video: as_video},
     {name: "Fish In Sight", img: speckled_trouts, languages: "React/Rails", gitHub_url: "https://github.com/AustinRhoads/fish-in-sight-frontend",},

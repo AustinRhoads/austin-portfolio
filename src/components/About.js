@@ -41,12 +41,11 @@ class About extends Component {
                     </div>
                     <div id="about-skills-list">
                         <div className="about-skills-item" >Javascript</div>
-                        <div className="about-skills-item" >React</div>
+                        <div className="about-skills-item" >React/Redux</div>
                         <div className="about-skills-item" >HTML</div>
                         <div className="about-skills-item" >CSS</div>
-                        <div className="about-skills-item" >Ruby</div>
-                        <div className="about-skills-item" >Rails</div>
-                        <div className="about-skills-item" >SQL</div>
+                        <div className="about-skills-item" >Ruby/Rails</div>
+                        <div className="about-skills-item" >PostgreSQL/SQL</div>
                         <div className="about-skills-item" >Node.js</div>
 
                     </div>
